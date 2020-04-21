@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/smk-accordion.css" />
+<div class="accordion-demo"> 
+
+<!-- Section 1 -->
+<div class="accordion_in">
+<div class="acc_head">Section 1</div>
+<div class="acc_content">
+<p>Your Content Goes Here.</p>
+</div>
+</div>
+
+<!-- Section 2 -->
+<div class="accordion_in">
+<div class="acc_head">Section 2</div>
+<div class="acc_content">
+<p>Your Content Goes Here.</p>
+</div>
+</div>
+
+<!-- Section 3 -->
+<div class="accordion_in">
+<div class="acc_head">Section 3</div>
+<div class="acc_content">
+<p>Your Content Goes Here.</p>
+</div>
+</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/smk-accordion.js"></script>
+$(".accordion-demo").accordionjs({
+
+  // The section open on first init.
+  activeIndex : 1,     
+
+  // Closeable section.
+  closeAble: false, 
+
+  // Close other sections.
+  closeOther  : true,  
+
+  // the speed of slide animation.
+  slideSpeed: 200 
+  
+});
