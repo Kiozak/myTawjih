@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mini-title {
+    text-align: center; 
+    color: orange;
+    margin-top: 20px;
+}
