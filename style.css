@@ -12,3 +12,11 @@ body {
     color: orange;
     margin-top: 20px;
 }
+
+.btn-link {
+    color: white;   
+}
+
+.card-header {
+    background-color: #ff9000;
+}
