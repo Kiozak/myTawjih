@@ -17,6 +17,10 @@ body {
     color: white;   
 }
 
+.btn-link:hover {
+    color: white;
+}
+
 .card-header {
     background-color: #ff9000;
 }
